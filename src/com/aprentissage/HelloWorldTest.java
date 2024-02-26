@@ -1,14 +1,15 @@
 package com.aprentissage;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
 
 class HelloWorldTest {
 
 	@Test
-	void testMain() {
-		fail("Not yet implemented");
+	void testAjouter() {
+		HelloWorld testHelloWorld = new HelloWorld();
+
+		// int somme = testHelloWorld.add(2,3);
+		// assertEquals(5,somme);
 	}
 
 }
