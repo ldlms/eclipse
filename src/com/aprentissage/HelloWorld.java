@@ -16,10 +16,10 @@ public class HelloWorld {
 		int b = 5;
 		// float c = (float) b / a;
 
-		String x = "bonjour ";
-		String y = "tout le monde";
+		String x = "A";
+		x = "B";
 
-		System.out.println(x + b);
+		System.out.println(x);
 
 	}
 
