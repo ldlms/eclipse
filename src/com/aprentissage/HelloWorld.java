@@ -1,10 +1,14 @@
 package com.aprentissage;
 
+import javax.swing.JFrame;
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
 
 		add(5, 4);
+
+		JFrame fenetre = new JFrame();
 
 	}
 
