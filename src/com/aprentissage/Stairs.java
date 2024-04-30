@@ -3,31 +3,23 @@ package com.aprentissage;
 public class Stairs {
 
 	public static void main(String[] args) {
-		int n = 3;
+		int n = 45;
 		System.out.println(climStairs(n));
 
 	}
 
 	public static int climStairs(int n) {
-		int soluce = 0;
-
-		// if ((n - 2) >= 2) {
-		// soluce += (n - 2) * 2;
-		// soluce += (n - 2) - 1;
+		// int soluce;
+		// if (n == 1) {
+		// return soluce = 1;
+		// } else if (n == 2) {
+		// return soluce = 2;
 		// } else {
-		// soluce = n;
+		// return climStairs(n - 1) + climStairs(n - 2);
 		// }
 
-		for (int i = 1; i <= n; i++) {
-			if (i == 1) {
-				soluce++;
-			}
-			if (i > 1) {
-				soluce += 2;
-			}
-		}
+		// en fait c'est une suite de fibonacci
 
-		return soluce;
 	}
 
 }
